@@ -12,7 +12,7 @@ public class Main {
     private static final int TIMEOUT_MS = 3000;
 
     public static void main(String[] args) throws Exception {
-        String path = "lightBlocklist.txt";
+        String path = "blocklist.txt";
         BlockList bl = new BlockList(path);
 
         PrintWriter writer = new PrintWriter(new FileWriter("log.txt"), true);
